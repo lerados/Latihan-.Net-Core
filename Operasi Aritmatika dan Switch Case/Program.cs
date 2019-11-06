@@ -8,9 +8,9 @@ namespace Operasi_Aritmatika_dan_Switch_Case
         {
             double c;
 
-            Console.WriteLine("Masukan Angka Pertama :");
+            Console.Write("Masukan Angka Pertama : ");
             double a = double.Parse(Console.ReadLine());
-            Console.WriteLine("Masukan Angka Kedua :");
+            Console.Write("Masukan Angka Kedua : ");
             double b = double.Parse(Console.ReadLine());
             Console.WriteLine("Masukan Angka Antara 1 sampai 4 Untuk Memilih :");
             Console.WriteLine("1. Penambahan\n2. Pengurangan\n3. Perkalian\n4. Pembagian");
